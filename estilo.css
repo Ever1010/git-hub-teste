@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Playwrite+CU:wght@100..400&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Nanum+Pen+Script&family=Playwrite+CU:wght@100..400&family=Teko:wght@300..700&display=swap');
+
+
+
+
+
+:root{
+--font1:Verdana, Geneva, Tahoma, sans-serif;
+--font2:"teko";
+--font3:"nanum";
+}
 *{
 margin: 0px;
 padding: 0px;
@@ -7,15 +19,21 @@ padding: 0px;
 html,body{
 min-height: 100vh;    
 background-color: yellow;
+font-family: var(--font2);
 }
 header{color: white;
     background-color: black;
-    text-align: center;
+    text-align: center; 
+    font-family: var(--font2);
+    
+   
 }
 header>h1{
+    
     padding-top: 50px;
     /* text-transform: uppercase; (para maiusculas)*/
     font-variant: small-caps;
+    font-size: 10vw;
 }
 header>p{
 padding-bottom:50px;
@@ -33,6 +51,7 @@ padding-top: 10vh;
 padding-bottom: 10vh;
 line-height: 2em;
 padding-left: 30px;
+font-size: 4vw;
 }
 section.normal{
 background-color: white;
@@ -43,8 +62,9 @@ section.imagem{
     color: white;
 }
 section.imagem>p{
-width: 400px;
+display: inline-block;
 background-color:rgba(169, 169, 169, 0.54);
+padding:5px ;
 }
 footer{
 background-color: black;
