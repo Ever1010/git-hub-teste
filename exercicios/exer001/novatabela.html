@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <style>
+        caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 5px;
+        background-color: yellow;
+        }
+        thead{
+        background-color: gray;
+        color: white;
+        }
+        
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+    table{
+    width: 600px;
+    border-collapse: collapse;
+    position: relative;
+    }
+    thead>tr>th{
+    position:sticky;
+    top:0;
+    background-color: yellow;
+    color: black;
+    
+    }
+    td,th{
+    border: 1px solid black;
+    padding: 5px;
+    }
+    td#total{
+    color: red ;
+    }
+    td.num{
+    text-align: right;
+    }
+    tbody>tr:nth-child(2n){
+    background-color: gray;
+    }
+ 
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela grande</title>
+
+</head>
+<body>
+    <!--
+      
+        hierarquia de tabelas grandes
+      table
+         caption  
+      thead-
+        tr,
+          td,
+          th
+
+      tbody-
+        tr,
+          td,
+          th
+
+
+      tfoot-
+        tr,
+          td,
+          th
+
+
+        -->
+<table>
+    <caption>Titulo da Tabela</caption>
+    <thead>
+    <tr>
+        <th scope="col"  style="width: 100px;">Estado</th>
+        <th scope="col" style="width: 100px;">Populacao</th>
+        <th scope="col">Cidade</th>       
+
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+        <tr>
+            <td>recife</th>
+            <td class="num">543876566</th>
+            <td>pernanbuco</th>       
+    
+        </tr>
+        <tr>
+            <td>bahia</th>
+            <td class="num">666576566</th>
+            <td>salvador</th>       
+    
+        </tr>
+        <tr>
+            <td>amazonas</th>
+            <td class="num">6765435566</th>
+            <td>manaus</th>       
+    
+        </tr>
+
+    </tbody>
+    <footer>
+        <tr>
+            <th scope="row">Total de habitantes </th>
+            <td class="num" id="total"><strong>000000</strong></td>
+            <th>fonte de dados</th>
+        </tr>
+
+    </footer>
+</table>
+
+
+    
+</body>
+</html>
