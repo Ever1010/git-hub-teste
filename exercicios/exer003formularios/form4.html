@@ -7,8 +7,25 @@
 </head>
 <body>
     <h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum quibusdam asperiores eos iusto magnam maxime voluptatum, velit ipsa dolor fuga, tempore ducimus sint explicabo quam dolore impedit mollitia omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque quo tempore consectetur non quibusdam suscipit, quae odio dolorem quaerat exercitationem ad voluptas ducimus sequi possimus, delectus nisi perferendis accusamus.</p>
+     Formulario Telefone
     </h1>
+   <form action="#" method="get">
+   <fieldset>
+    <legend>Dados Pessoais</legend>
+       <p>
+           <label for="iemail">E-mail: </label>
+           <input type="email" name="email"id="iemail" autocomplete="email" required>
+       </p>
+       <p>
+        <label for="itel">Telefone: </label>
+        <input type="text" id="phone" placeholder="Digite o telefone com DDD" pattern="[0-9]{2} [0-9]{4,5}-[0-9]{4}" required />
+       </p>
+   </fieldset>
+   <p><input type="submit" value="Enviar">
+   <input type="reset" value="Apagar">
+   </p>
+
+   </form>
     
 </body>
 </html>
