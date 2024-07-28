@@ -7,13 +7,21 @@
 </head>
 <body>
     <h1>Formulário6</h1>
-    <form action="#" method="get">
+    <form action="#" method="post"> <!-- arquivos maiores de 3000bytes exigem o método post -->.
+        <p>
+            <label for="foto" id="ifoto"></label>
+            <input type="file" name="img" id="ifoto">
+        </p>
+        <p>
+            <label for="perfil" id="iperfil"></label>
+
+        </p>
         <p><label for="cor" id="icor">Cor</label>
-            <input type="color" name="color" id="icor">
+            <input type="color" name="color" id="icor" value="#363636">
         </p>
         <p>
            <label for="inivel">Nível de satisfação</label> 
-           <input type="range" name="nivel" id="inivel">
+           <input type="range" name="nivel" id="inivel" min="1" max="100" value="1">
         </p>
         <p><input type="submit" value="Enviar">
             <input type="reset" value="Apagar">
