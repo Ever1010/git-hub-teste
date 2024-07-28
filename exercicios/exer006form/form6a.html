@@ -7,6 +7,42 @@
 </head>
 <body>
     <form action="#" method="get">
+        <p>
+            <label for="prof">Profissâo</label>
+            <input type="prof" name="prof" id="prof" list="list">
+            <datalist id="list">
+                <option value="adm">Administrador</option>
+                <option value="adv">Advogado</option>
+                <option value="eng">Engenheiro</option>
+                <option value="med">Medico</option>  
+            </datalist>
+        </p>
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="sel">***escolha***</option>
+            <optgroup label="Preferidos">
+                <option value="SP">São Paulo</option>
+                <option value="AC">Acre</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="BA">Bahia</option>
+            </optgroup>
+            
+
+            <optgroup label="Selecionados">
+                <option value="SP">São Paulo</option>
+                <option value="AC">Acre</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="BA">Bahia</option>
+            </optgroup>
+           
+            </select> 
+            <p>
+                <label for="img">Mensagem: </label><br>
+                <textarea name="img" id="img" rows="" cols=""></textarea>
+            </p>        
+
+        </p>
 <input type="submit">
 <input type="reset">
 
